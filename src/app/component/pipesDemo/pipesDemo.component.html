@@ -1,0 +1,6 @@
+<ul *ngFor='let temp of name'>
+    <li>
+        {{temp.Name | Title:temp.Gender}}
+        {{temp.Gender | uppercase}}
+    </li>
+</ul>
